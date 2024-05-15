@@ -1,0 +1,416 @@
+@font-face {
+    font-family: "Raleway", "Tango Sans";
+    src: url(Fontes/Raleway/Raleway-VariableFont_wght.ttf), url(Fontes/tangosans/TangoSans_Bold.ttf), url(Fontes/Raleway/Raleway-Italic-VariableFont_wght.ttf )
+}
+
+:root {
+    --verde-gamefuture: #026F6F;
+    --branco: #ffffff;
+}
+
+/* Reset CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container-grid {
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.banner {
+    height: 90%;
+
+    background: rgb(2, 103, 34);
+    background: linear-gradient(90deg, rgba(2, 103, 34, 1) 0%, rgba(2, 111, 111, 1) 0%, rgba(0, 126, 97, 0.7) 100%), url(Img/Header.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+header {
+    height: 180px;
+}
+
+header button {
+    display: none;
+}
+
+header img {
+    width: 140px;
+}
+
+header .container-grid {
+    height: 90%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    font-size: 18px;
+    font-family: "Raleway";
+
+    color: white;
+    text-decoration: Underline transparent;
+    text-decoration-thickness: 1px;
+
+    transition: text-decoration 500ms ease;
+
+
+}
+
+.menu a:hover {
+    color: white;
+
+    text-decoration-color: white;
+}
+
+.conteudo-banner {
+    height: calc(100vh - 280px);
+    display: flex;
+    align-items: center;
+
+}
+
+.conteudo-banner p {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+
+    font-family: "Raleway";
+    font-size: 32px;
+
+}
+
+.entrada p {
+    width: 100%;
+    text-align: center;
+    padding: 160px;
+    font-size: 40px;
+    text-decoration: Underline black;
+}
+
+
+
+#bem p {
+    height: 300px;
+    padding: 50px 25%;
+    display: flex;
+    flex-direction: column;
+
+
+
+    text-align: center;
+    font-family: Raleway;
+    font-size: 24px;
+    background-color: #d9d9d9;
+    border-radius: 60px;
+    outline: 2px solid black;
+}
+
+#Artes p {
+    text-align: center;
+    padding: 120px;
+    font-size: 40px;
+}
+
+.Artes img {
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-top: -100px;
+
+
+
+
+
+}
+
+.sobre-a-empresa {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+
+}
+
+
+#banner-a {
+    background: url(Img/Firefly\ arte\ de\ paisagem\ cibernética\ que\ possa\ ser\ usado\ de\ banner\ para\ um\ site\ com\ a\ paleta\ de\ core\ 1.png);
+    background-repeat: no-repeat;
+    padding: 100px;
+    width: 100%;
+    margin-right:10px ;
+}
+
+
+
+
+.Titulo{
+    text-align: center;
+    font-size: 60px;
+    padding: 30px 0;
+    font-family: Raleway;
+}
+
+.Texto{
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: Raleway;
+    font-size: 24px;
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+
+#banner-b {
+
+    background: rgb(2, 103, 34);
+    background: linear-gradient(90deg, rgba(2, 103, 34, 1) 0%, rgba(2, 111, 111, 1) 0%, rgba(0, 126, 97, 0.7) 43%), url(Img/OIG4\ 2.png);
+    background-repeat: no-repeat;
+    padding: 100px;
+    width: 100%;
+    background-position: 40%;
+}
+
+
+#Sucesso {
+    height: 10px;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 60px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Raleway;
+
+}
+
+#cases {
+    align-items: center;
+    margin-left:150px;
+}
+
+
+#banner-c {
+    background: rgb(2, 103, 34);
+    background: linear-gradient(90deg, rgba(2, 103, 34, 1) 0%, rgba(2, 111, 111, 1) 0%, rgba(0, 126, 97, 0.7) 43%), url(Img/OIG1\ 2.png);
+    background-repeat: no-repeat;
+    padding: 100px;
+    margin-top: 50px;
+    background-position: 55%;
+    width: 100%;
+}
+
+
+#contato {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    padding: 10%;
+    font-size: 40px;
+    font-family: Raleway;
+
+}
+
+#contato h2 {
+    margin-bottom: 70px;
+}
+
+#contato form {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d9d9d9;
+    outline: 2px solid black;
+    font-family: "Raleway";
+    font-size: 17px;
+}
+
+
+.campo label {
+    text-align: left;
+}
+
+.campo {
+    width: 60%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+
+
+}
+
+.campo-descricao {
+    width: 60%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+
+}
+
+.campo input {
+    height: 40px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+
+    outline: none;
+}
+
+.campo-descricao textarea {
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+
+    outline: none;
+
+    padding: 10px;
+
+    resize: none;
+}
+
+.campo label,
+.campo-descricao label {
+    margin-bottom: 15px;
+
+}
+
+.campo input,
+.campo-descricao textarea {
+    font-family: "Raleway";
+    font-size: 17px;
+}
+
+.campo input::placeholder,
+.campo-descricao textarea::placeholder {
+    color: black;
+}
+
+.campo input:focus,
+.campo-descricao textarea:focus {
+    outline: 2px solid black;
+}
+
+#contato form button {
+    height: 60px;
+    width: 60%;
+
+    background-color: var(--verde-gamefuture);
+    color: white;
+
+    border: none;
+    border-radius: 4px;
+    outline: 2px solid black;
+
+    font-size: 20px;
+    font-family: "Raleway";
+    font-weight: 700;
+    /* Bold */
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: background-color 500ms;
+}
+
+#contato form button:hover {
+    background-color: #025353;
+}
+
+
+
+
+
+.container-grid {
+    width: 90%;
+    max-width: 1400px;
+    
+}
+
+.banner {
+    height: 100%;
+
+    background: rgb(2, 103, 34);
+    background: linear-gradient(100deg, rgba(2, 103, 34, 1) 0%, rgba(2, 111, 111, 1) 0%, rgba(0, 126, 97, 0.7) 100%), url(Img/Header.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    
+}
+
+footer {
+    height: 200px;
+}
+
+
+footer img {
+    width: 160px;
+    margin-top: 160px;
+}
+
+footer .container-grid {
+    height: 10%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 70px;  
+    margin-left: 300px;  
+    font-family: Raleway;
+    text-decoration: Underline white;
+
+}
+
+.social-icons {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li img {
+    width: 50px;
+    height: 50px;
+    transition: filter 0.3s ease;
+}
+
+.social-icons li img:hover {
+    filter: brightness(70%);
+}
