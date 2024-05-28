@@ -285,7 +285,7 @@ header .container-grid {
 }
 
 .campo-descricao textarea {
-    color: white;
+    color:black;
     background-color: white;
     border: none;
     border-radius: 10px;
