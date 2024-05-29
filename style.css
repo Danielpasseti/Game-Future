@@ -95,6 +95,7 @@ header .container-grid {
 }
 
 .entrada p {
+    font-family: raleway;
     width: 100%;
     text-align: center;
     padding: 160px;
@@ -124,6 +125,7 @@ header .container-grid {
     text-align: center;
     padding: 120px;
     font-size: 40px;
+    font-family: Raleway;
 }
 
 .Artes img {
